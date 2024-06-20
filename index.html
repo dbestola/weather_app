@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="/assets/noodle.png" type="image/x-icon">
+<link rel="stylesheet" href="styles.css">
+
+<title>March Cohort</title>
+    
+</head>
+<body style="height: 150vh; ">
+
+    <div class="main">
+        <div class="header">
+
+        <div class="circle1" style="position: relative;">
+            <img style="position: absolute; top: 5px; left: 4px;" src="./Assets/menu.png" alt="menu-icon" width="20px">
+        </div>
+        <div class="circle2" style="position: relative;">
+            <img style="position: absolute; top: 5px; left: 4px;" src="./Assets/notification.png" alt="notification-icon" width="20px">
+        </div>
+        <img class="location-logo" src="./Assets/location-png.png" alt="location-icon">
+        <h5 class="location-text"> <span class="location"></span></h5>
+
+            <form class="form_field" style="position: relative;">
+                <img style="position: absolute; top: 8px; left: 20px;" src="./Assets/search.png" alt="search" width="20px">
+                <input class="search" placeholder="enter city ..." >
+            </form>
+
+            <form class="form_field">
+            <input type="submit" value="search city" class="submit">
+           </form>
+
+        <div class="combo-one">
+            <div class="settings-div">
+                <img style="position: absolute; top: 4px; left: 7px;" src="./Assets/settings.png" alt="settings-icon" width="20px">
+            </div>
+        </div>   
+        
+        <div class="combo">
+
+        <div class="circle3">
+            <img style="position: absolute; top: 6px; left: 4px;" alt="moon-icon" width="20px" src="./Assets/moon.png">
+        </div>
+
+        <div class="circle4">
+            <img style="position: absolute; left: 28px; top: 5px;" alt="dbest-icon" width="50px" src="./Assets/dbest3.png"> 
+        </div>
+
+        </div>
+
+
+       
+
+        </div>
+    
+        <div class="header-two">
+
+    <h5 class="day">Today</h5>
+    <h5 class="day">Tomorrow</h5>
+    <h5 class="seven-day">Next 7 days</h5>
+    
+
+    <div class="forecast">
+        <h6>Forecast</h6>
+    </div>
+    <div class="air-quality">
+        <h6>Air Quality</h6>
+    </div>
+
+    <h5 class="rain-chance"> Chance of rain </h5>
+
+    </div>
+
+    <div class="seven-div">
+        <div class="monday">
+            <h4 class="mond">Monday</h4>
+            <h4 id="time"></h4>
+            <hr>
+
+            
+
+            <div class="both-rendering">
+
+            <div class="first-render">
+
+            <p> <span id="temp" class="temperature"></span></p>
+            <p>Real Feel : <span class="real-feel"></span></p>
+            <p>Wind NE : <span class="wind"></span></p>
+            <p>Pressure : <span class="pressure"></span></p>
+            <p>Humidity : <span class="humid"></span></p>
+            </div>
+
+            <img src="./Assets/clouds.png"  class="m_clouds" alt="cloud_logo">
+
+            <div class="second-render">
+            <p>Sunrise : <span class="rise"></span></p>
+            <p>Sunset : <span class="set"></span></p>
+            </div>
+
+            </div>
+    
+        </div>
+        <div class="tuesday">
+            <h4>Tue</h4>
+            <hr>
+            <img src="./Assets/tcloud.png"  class="t_clouds" alt="cloud_logo">
+        </div>
+        <div class="wednessday">
+            <h4>Wed</h4>
+            <hr>
+            <img src="./Assets/wcloud.png"  class="w_clouds" alt="cloud_logo">
+        </div>
+        <div class="thursday">
+            <h4>Thu</h4>
+            <hr>
+            <img src="./Assets/thcloud.png"  class="th_clouds" alt="cloud_logo">
+        </div>
+        <div class="friday">
+            <h4>Fri</h4>
+            <hr>
+            <img src="./Assets/fcloud.png"  class="f_clouds" alt="cloud_logo">
+        </div>
+        <div class="saturday">
+            <h4>Sat</h4>
+            <hr>
+            <img src="./Assets/scloud.png"  class="s_clouds" alt="cloud_logo">
+        </div>
+        <div class="sunday">
+            <h4>Sun</h4>
+            <hr>
+            <img src="./Assets/su.png"  class="su_clouds" alt="cloud_logo">
+        </div>
+    </div>
+
+    <div class="header-three">
+
+        <h5 class="global-map">Global map</h5>
+        
+        <div class="view-wide">
+            <h6>View wide</h6>
+        </div>
+
+        <h5 class="large-cities"> Other large cities </h5>
+
+        <h6 class="show-all"> Show all</h6>
+        <h4 class="greater-than">></h4>
+
+    </div>
+
+    <div class="last-line">
+
+        <div class="map"></div>
+
+    <div class="inner-divs">
+
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+        
+    </div>
+    </div>
+    
+    </div>
+<script src="scripts.js"></script>
+</body>
+</html>
