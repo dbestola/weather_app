@@ -218,7 +218,9 @@ body {
     border-radius: 20px;
     margin: 5px;
     text-align: center;
+    margin-right: 25px;
 }
+
 
 .mond {
     margin-left: 10px;
@@ -318,7 +320,7 @@ hr {
 }
 
 .global-map {
-    margin-right: 29rem;
+    margin-right: 220px;
 }
 
 .view-wide {
@@ -329,6 +331,7 @@ hr {
     display: flex;
     align-items: center;
     justify-content: center;
+    align-items: center;
     margin-right: 50px;
 }
 
@@ -354,14 +357,29 @@ hr {
     margin-right: 20px;
 }
 
+#mapimg {
+    height: 250px;
+    width: 630px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.inner-divs {
+  display: flex;
+  flex-direction: column;
+}
+
 .one {
+    position: relative;
     background: rgb(41, 38, 38);
     height: 75px;
     width: 200px;
     border-radius: 20px;
     margin-bottom: 10px;
 }
+
 .two {
+    position: relative;
     background: rgb(41, 38, 38);
     height: 75px;
     width: 200px;
@@ -369,8 +387,72 @@ hr {
     margin-bottom: 10px;
 }
 .three {
+    position: relative;
     background: rgb(41, 38, 38);
     height: 75px;
     width: 200px;
     border-radius: 20px;
+   
 }
+
+.three-divs-h6 {
+    position: absolute;
+    text-indent: 15px;
+   bottom: 30px;
+}
+#Us {
+    position: absolute;
+    bottom: 35px;
+    text-indent: 15px; 
+}
+
+#California {
+    position: absolute;
+    bottom: 10px;
+    text-indent: 15px;
+}
+
+
+#Mostly-Sunny {
+    position: absolute;
+    top: 35px;
+    text-indent: 15px; 
+}
+
+#china {
+    position: absolute;
+    bottom: 35px;
+    text-indent: 15px; 
+}
+
+
+#beijing {
+    position: absolute;
+    bottom: 10px;
+    text-indent: 15px; 
+}
+
+#cloudy {
+    position: absolute;
+    top: 35px;
+    text-indent: 15px; 
+}
+
+#israel {
+    position: absolute;
+    bottom: 35px;
+    text-indent: 15px; 
+}
+
+#Jerusalem {
+    position: absolute;
+    bottom: 10px;
+    text-indent: 15px; 
+}
+
+#Sunny {
+    position: absolute;
+    top: 35px;
+    text-indent: 15px; 
+}
+
